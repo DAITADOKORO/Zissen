@@ -60,5 +60,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# slim用
 gem 'slim-rails'
 gem 'html2slim'
+# password用
+gem 'bcrypt', '~> 3.1.7'
+
